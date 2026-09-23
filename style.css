@@ -1,0 +1,32 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #a5af94;
+  color: #284139;
+  height: 100%;
+}
+main{margin-top: 3.9cm;}
+header {height: 4cm;
+  background-color: #a5af94;;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  
+}
+
+header .logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  border-radius: 10px;
+}
+
+header h1 {position: relative;
+  top: 1cm;
+  margin: 0;
+  font-size: 2em;
+  margin-left: 3cm;
+}
+
