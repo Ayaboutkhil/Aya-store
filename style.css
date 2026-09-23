@@ -43,5 +43,50 @@ header h1 {position: relative;
 .sidebar h3 {
   margin: 20px 0;
 }
+.products {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.product {
+ 
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  width: 180px;
+  background-color: #D7DCC2; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.product h4 {
+  margin: 10px 0 5px;
+  font-size: 1em;
+  color: #284139;
+}
+.product p {
+  font-weight: bold;
+  color: #AD8330;
+  margin: 0;
+}
+
+button{
+  color: #284139;
+  padding: 8px 22px;
+  border-radius: 100px;
+  background-color: #A5AF94;
+  transition: all 0.2s ease;
+}
 
 
