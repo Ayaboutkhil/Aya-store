@@ -29,4 +29,19 @@ header h1 {position: relative;
   font-size: 2em;
   margin-left: 3cm;
 }
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 20%;
+  padding: 20px;
+  margin-top: 2.8cm;
+}
+
+.sidebar h3 {
+  margin: 20px 0;
+}
+
 
