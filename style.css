@@ -1,3 +1,4 @@
+
 body, html {
   margin: 0;
   padding: 0;
@@ -29,6 +30,31 @@ header h1 {position: relative;
   font-size: 2em;
   margin-left: 3cm;
 }
+
+nav ul {
+  padding: 0;
+  margin-top: 50px;
+  margin-left: 3cm;
+}
+
+ li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+a {
+  color: #284139;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ a:hover {
+  border-radius: 10px;
+  background-color: #AD8330;
+  
+ }
+
+
 .container {
   display: flex;
   padding: 20px;
@@ -43,6 +69,7 @@ header h1 {position: relative;
 .sidebar h3 {
   margin: 20px 0;
 }
+
 .products {
   width: 80%;
   display: flex;
@@ -81,6 +108,14 @@ header h1 {position: relative;
   margin: 0;
 }
 
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #A5AF94;
+  color: #284139;
+  margin-top: auto;
+}
 button{
   color: #284139;
   padding: 8px 22px;
@@ -88,5 +123,3 @@ button{
   background-color: #A5AF94;
   transition: all 0.2s ease;
 }
-
-
