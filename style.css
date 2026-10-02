@@ -79,19 +79,21 @@ a {
 }
 
 .product {
- 
-  object-fit: cover;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
   width: 180px;
-  background-color: #D7DCC2; 
+  min-height: 350px;
+  background-color: #D7DCC2;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   text-align: center;
   padding: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  display: flex;
+  flex-direction: column;
 }
 
+.product button {
+  margin-top: auto;
+}
 .product:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
